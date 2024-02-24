@@ -9,6 +9,7 @@ c.segment,
 c.country,
 p.productname,
 p.subcategory,
+P.CATEGORY,
 o.ORDERSELLINGPRICE - o.ORDERCUSTPRICE AS ORDERPROFIT,
 o.ORDERCUSTPRICE,
 o.ORDERSELLINGPRICE
